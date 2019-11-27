@@ -1,0 +1,134 @@
+/* -------- BASIC SETUP ---------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  color: #000000;
+  font-family: 'Lato', 'Arial', 'sans-serif';
+  font-weight: 300px;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* -------- RE-USABLE ---------*/
+
+.row{
+  max-width: 1140px;
+  margin: 0 auto 0 auto;
+}
+
+
+/* -------- Body -------------- */
+/* Navigation */
+
+
+.main-nav{
+  position: relative;
+  text-align: right;
+}
+.main-nav img{
+  height: 100px;
+  margin-top: 3%;
+  float:left;
+  color: #ffffff;
+}
+.main-nav li{
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 3%;
+  margin-top: 6%;
+}
+.main-nav a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 90%;
+}
+/* Hero Section */
+.hero-section{
+  background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),url("img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+.hero-text{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.hero-text a:link,
+.hero-text a:visited{
+  text-decoration: none;
+  margin-right:2%;
+  padding: 8px;
+  border: 1px solid #27a944;
+  border-radius: 15px;
+  color:#ffffff;
+}
+
+.hero-primary-btn,
+.hero-primary-btn{
+  background-color:#41d361;
+}
+
+.hero-primary-btn:active,
+.hero-primary-btn:hover{
+  background-color:#27a944;
+  transition: background-color .1s ease;
+}
+
+.hero-secondary-btn:active,
+.hero-secondary-btn:hover{
+  background-color:#27a944;
+  transition: background-color .1s ease;
+}
+
+/* -------- why-us-section --------- */
+.why-us{
+  margin-bottom: 100px;
+  margin-top: 2%;
+
+}
+.why-us-header h2, h3{
+  color: black;
+  text-align: center;
+  font-weight: 400;
+}
+.why-us-header h3{
+  color: #27a944;
+  font-size: 50px;
+  font-weight: 50;
+}
+.why-us-header p{
+  text-align: center;
+  margin: 0 auto;
+  max-width:80%;
+}
+
+.why-us-explaination{
+  margin-top: 30px;
+}
+.why-us-explaination h4{
+  text-align: left;
+}
+
+.why-us-parts p{
+  margin-top:15px;
+}
+ion-icon{
+  color:#27a944;
+  font-size: 50px;
+}
