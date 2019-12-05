@@ -1,4 +1,4 @@
-/* -------- BASIC SETUP ---------*/
+/* --------------------------------- BASIC SETUP ------------------------------*/
 *{
   margin: 0;
   padding: 0;
@@ -18,15 +18,31 @@ html{
   clear: both;
   display: table;
 }
-/* -------- RE-USABLE ---------*/
+/* ----------------------------- RE-USABLE ----------------------------------*/
 
 .row{
   max-width: 1140px;
   margin: 0 auto 0 auto;
 }
 
+/*Header for multiple sections*/
+.why-us-header h2, h3{
+  color: black;
+  text-align: center;
+  font-weight: 400;
+}
+.why-us-header h3{
+  color: #27a944;
+  font-size: 50px;
+  font-weight: 50;
+}
+.why-us-header p{
+  text-align: center;
+  margin: 0 auto;
+  max-width:80%;
+}
 
-/* -------- Body -------------- */
+/* ------------------------------------ Body ---------------------------------- */
 /* Navigation */
 
 
@@ -96,27 +112,13 @@ html{
   transition: background-color .1s ease;
 }
 
-/* -------- why-us-section --------- */
+/* ---------------------------- why-us-section ------------------------------- */
 .why-us{
   margin-bottom: 80px;
   margin-top: 2%;
 
 }
-.why-us-header h2, h3{
-  color: black;
-  text-align: center;
-  font-weight: 400;
-}
-.why-us-header h3{
-  color: #27a944;
-  font-size: 50px;
-  font-weight: 50;
-}
-.why-us-header p{
-  text-align: center;
-  margin: 0 auto;
-  max-width:80%;
-}
+
 
 .why-us-explaination{
   margin-top: 30px;
@@ -133,7 +135,7 @@ ion-icon{
   font-size: 50px;
 }
 
-/* ----------------- GALLERY SECTION -------------*/
+/* ------------------------------- GALLERY SECTION -----------------------------*/
 .gallery{
   margin-bottom:70px;
 }
@@ -160,4 +162,22 @@ ion-icon{
 .gallery table img:hover{
   opacity:1;
   transform: scale(1.1,1.1);
+}
+
+
+/* --------------------------- HOW IT WORKS SECTION -----------------------*/
+.how-it-works-section{
+  margin-bottom: 200px;
+}
+
+.phone-part{
+  border:1px solid black;
+}
+
+.phone-part img{
+  width: 25%;
+}
+
+.steps123{
+  border:1px solid black;
 }
